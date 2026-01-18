@@ -31,6 +31,12 @@ body {
   letter-spacing: 1.8%;
   color: #787885;
 }
+.fa-brands {
+  color: #ffffff;
+}
+.fa-solid {
+  color: #fb8200;
+}
 
 /* all button css */
 .banner-btn {
@@ -200,4 +206,40 @@ ul a {
   font-weight: 600;
   line-height: 28px;
   color: #6C6C6C;
+}
+
+/* footer section style */
+
+footer {
+  background-color: #0A0826;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin:0 auto;
+  padding: 50px;
+}
+.footer-heading-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.footer-text {
+  font-family: "Manrope", sans-serif;
+  font-size:0.875rem;
+  font-weight: 600;
+  line-height: 24px;
+  color: #D9DBE1;
+  margin-top: 3px;
+  margin-bottom: 17px;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+  background-color;
+  justify-content: center;
+}
+.social-icons a {
+  text-decoration: none;
+  
 }
